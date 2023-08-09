@@ -1,0 +1,116 @@
+@import '_style';
+*,
+*:before,
+*::after{
+    box-sizing: border-box;
+}
+
+html, 
+body{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+html, 
+body{
+    display: block;
+}
+
+body{
+    line-height: 1.317181995;
+    scroll-behavior: smooth;
+    font-family:  'Plus Jakarta Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+button:focus{
+    outline: 0;
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.pags{
+    background-color: #9db9ee;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.editar{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: end;
+}
+.contenido{
+        background-color: #F5FFFA;
+        margin: 15px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        h2 {
+            margin: 15px 10px 15px 25px;
+            padding: 11px
+        }
+        .home{
+            height: auto;
+            font-size: 16px;
+            font-weight: 380;
+            color:black;
+            margin: 18px 35px 30px 35px;
+            display: flex;
+        }
+        .imag{
+            margin: 25px auto 25px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            max-height: 20rem !important;
+            max-width: 50%;
+        }
+        
+
+        h3{
+            text-align-last: center;
+        }
+        .redessociales {
+            margin: 15px auto;
+            max-width: 20%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px
+        }
+        .stream{
+            margin: 20px auto 20px;
+            min-width: 30%;
+            min-height: 100vh;
+            max-height: 8rem !important;
+            max-width: auto;
+        }
+}
+
+.cards{
+    margin: 250px auto 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-height: 12rem !important;
+    max-width: 45%;
+    .a .card-body .card-title {
+        text-decoration: none;
+    }
+    
+}
+
+
+
+//acerca de la banda
+
+.row{
+    .a{
+      .nav-link{
+        font-size: 5px;
+        text-decoration: none;
+      }
+    }
+}
